@@ -30,7 +30,8 @@ h1 {
 }
 
 .paragraph {
-    margin: auto 20% auto 20%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .button {
