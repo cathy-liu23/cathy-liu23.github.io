@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<title>Experience</title>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="icon" href="intro.png">
+</head>
+
+<a href="experience.html"><button class="button">Experience</button></a>
+<a href="https://github.com/cathy-liu23" target="_blank"><button class="button">GitHub</button></a>
+<a href="about.html"><button class="button">About</button></a>
+<a href="index.html"><button class="button">Home</button></a>
+<br>
+<br>
+
+<h1>Experience</h1>
+
+<button type="button" class="collapsible">SDE Intern @ Amazon</button>
+  <div class="content">
+    <p>
+    • Designed a text visualization (Word Cloud) of customer reviews to help authors better understand their readers 
+    • Developed an efficient algorithm to parse reviews and choose words with highest frequency
+    • Cleaned text data using regular expression and word stemming algorithms
+    • Worked on frontend UI and backend data retrieval and parsing using React, Javascript, and Scala
+    </p>
+  </div>
+
+  <br>
+
+</html>
+
+<!-- Script for toggling the collapsible sections -->
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
