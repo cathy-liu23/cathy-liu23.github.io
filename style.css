@@ -56,7 +56,7 @@ h1 {
 #progress {
  width: 500px;   
  border: 1px solid black;
- position: relative;
+ position: center;
  padding: 3px;
 }
 
@@ -69,6 +69,7 @@ h1 {
  height: 20px;
  background-color: green;
  width: 100%;
+ position: center;
 }
 
 
