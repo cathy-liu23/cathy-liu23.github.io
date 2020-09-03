@@ -29,6 +29,10 @@ h1 {
     font-size: 2.5vw;
 }
 
+.paragraph {
+    margin: auto 20% auto 20%;
+}
+
 .button {
     background-color: #ffffff;
     border: none;
