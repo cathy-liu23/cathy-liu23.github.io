@@ -9,6 +9,12 @@
 p1 {
     font-size: 2vw;
     font-weight: bolder;
+    font-family: Oxygen;
+}
+
+p2 {
+    font-family: Oxygen;
+    font-weight: 100;
 }
 
 .link {
@@ -20,18 +26,14 @@ p1 {
     margin: auto;
     text-align: center;
     font-size: 1.5vw;
+    width: 70rem;
 }
 
 h1 {
     text-align: center;
-    font-family: Georgia;
+    font-family: Oxygen;
     font-weight: lighter;
     font-size: 2.5vw;
-}
-
-.paragraph {
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .button {
@@ -42,7 +44,7 @@ h1 {
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    font-family: Georgia;
+    font-family: Oxygen;
     float:right;
     font-size: 1.5vw;
 }
@@ -80,29 +82,44 @@ h1 {
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: #eee;
-  color: #444;
+  background-color: #7c94ba;
+  color: #ffffff;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 80%;
   border: none;
   text-align: left;
   outline: none;
   font-size: 15px;
+  font-family: Oxygen;
+  align-content: center;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
-  background-color: #ccc;
+.collapsible:hover {
+  background-color: #A0B8DD;
+}
+
+.active {
+  background-color: #7c94ba;
 }
 
 /* Style the collapsible content. Note: hidden by default */
+
 .content {
-  padding: 0 18px;
+  padding: 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #c3dbff;
+  font-family: Oxygen;
+  width: 77.45%;
 }
 
+
+.horizontal-center {
+  left: 10%;
+  -ms-transform: translateX(10%);
+  transform: translateX(10%);
+}
 
 
